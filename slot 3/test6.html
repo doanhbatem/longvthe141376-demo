@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style01.css">
+</head>
+<body>
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="YOUR_SERVER_SIDE_SCRIPT.php" method="post">
+            <label for="fname">First Name:</label><br>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <label for="fname">Last Name:</label><br>
+            <input type="email" name="email" placeholder="Your last name" required>
+            <label for="country">Country</label></br>
+   
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select></br>
+
+    <br><label for="subject">Subject</label>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</body>
+</html>

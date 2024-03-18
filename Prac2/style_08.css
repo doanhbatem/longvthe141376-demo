@@ -1,0 +1,13 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    color: #333;
+}
+.mytable th, td{
+    width: 300px;
+    border: 1px solid #333;
+}
+.mytable{
+    border: 1px solid #333;
+   
+}

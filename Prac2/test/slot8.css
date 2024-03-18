@@ -1,0 +1,25 @@
+.animated-box {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    animation-name: changeColorAndMove;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+  }
+  
+  @keyframes changeColorAndMove {
+    0% {
+      background-color: green;
+      transform: translateX(0);
+    }
+    50% {
+      background-color: yellow;
+      transform: translateX(100px);
+    }
+    100% {
+      background-color: green;
+      transform: translateX(0);
+    }
+  }
+  

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="102style.css">
+<head>
+    <title>Contact Form</title>
+</head>
+<body>
+
+<h2>Contact Us</h2>
+
+<form action="YOUR_SERVER_SIDE_SCRIPT.php" method="post">
+    <label for="fname">First Name:</label><br>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." required><br>
+
+    <label for="lname">Last Name:</label><br>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required><br>
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>

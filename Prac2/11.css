@@ -1,0 +1,21 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif
+    font-size 16px;
+    color: #333;
+}
+
+.table_01{
+    margin: 20px 0px;
+    border: 1px solid #393;
+    border-collapse: collapse;
+}
+
+.table_01 th, td{
+    border: 1px solid #393;
+    padding: 20px;
+    
+}
+
+.table_01 th{
+    background-color: #aca;
+}

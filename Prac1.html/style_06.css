@@ -1,0 +1,18 @@
+
+.myBox {
+    background-color: #ff6347; 
+    border-radius: 25px;
+    padding: 20px; 
+    width: 50%; 
+    margin: 20px ; 
+    color: white; 
+    text-align: right; 
+  }
+  
+  .myBox p {
+    font-size: 1em; 
+  }
+  body{
+    background-image: url('/Users/apple/Desktop/Code/conbo.jpeg');
+    background-size: cover;
+  }

@@ -1,0 +1,20 @@
+body{
+    font-family: Trebuchet MS, Verdana, arial, sans-serif;
+    font-size: 16px;
+}
+h3{
+    color: #06f
+    border-bottom: 1px dashed #06f;
+    padding-bottom: 5px;
+    font-size: 30px;
+}
+circle{
+    list-style: circle;
+}
+.square{
+    list-style: square;
+}
+.arrow{
+    list-style: none;
+    list-style-image: url('/Users/apple/Desktop/Code/Prac2/arrow.jpeg');
+}
